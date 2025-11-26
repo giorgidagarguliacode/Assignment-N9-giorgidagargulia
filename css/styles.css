@@ -1,8 +1,6 @@
 
 
-body{ 
-    padding-top: 20px;
-}
+
 header{
     display: flex;
     flex-flow : row nowrap;
@@ -32,7 +30,7 @@ nav a{
     gap: 31px;
     width: 100%;
      height: 700px;
-    background-image: url(whitebuildings.svg);
+    background-image: url(../images/whitebuildings.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,4 +46,63 @@ nav a{
     font-weight: 400;
     font-size: 19px;
    color: #FFFFFF;
+}
+.sec2{
+     margin-top: 84px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.left-div{
+   display: flex;
+    flex-direction: column;
+     height: 135px;
+    width: 235px;
+}
+.left-div h6{
+    margin-bottom: 9px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 17px;
+    color:#636060;
+}
+.left-div h3{
+    margin-bottom: 37px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 28px;
+    color: #010101;
+}
+.left-div p{
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  color: #636060;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px 56px;
+}
+.containerbox{
+    display: flex;
+    flex-direction: column;
+}
+.top-side1{
+    width: 286px;
+    height: 195px;
+    background-image: url(../images/ruin.svg);
+    margin-bottom: 23px;
+}
+.bottom-side1{
+    width: 286px;
+    height: 127px;
+}
+.bottom-side1 h3{
+    margin-bottom: 9px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 19px;
+    color:#343232;
 }
